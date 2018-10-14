@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+
+	<definition name="baselayout" template="/WEB-INF/template/default.jsp">
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/body.jsp"></put-attribute>
+		 <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp"></put-attribute> 
+
+	</definition>
+
+
+
+	<definition name="index" extends="baselayout">
+		<put-attribute name="title" value="Home"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="contact" extends="baselayout">
+		<put-attribute name="title" value="Contact Us"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/contact.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="about" extends="baselayout">
+		<put-attribute name="title" value="About Us"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/about.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="survey" extends="baselayout">
+		<put-attribute name="title" value="Survey"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/survey.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="projects" extends="baselayout">
+		<put-attribute name="title" value="Projects"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/projects.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="eia" extends="baselayout">
+		<put-attribute name="title" value="EIA"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/eia.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="fc" extends="baselayout">
+		<put-attribute name="title" value="Forest Clearence"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/fc.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="hydrology" extends="baselayout">
+		<put-attribute name="title" value="Hydrology"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/hydrology.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="pt" extends="baselayout">
+		<put-attribute name="title" value="Property Tax"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/pt.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="training" extends="baselayout">
+		<put-attribute name="title" value="Training"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/training.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="up" extends="baselayout">
+		<put-attribute name="title" value="Urban Planning"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/up.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="gis" extends="baselayout">
+		<put-attribute name="title" value="GIS"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/gis.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="rs" extends="baselayout">
+		<put-attribute name="title" value="Remote Sensing"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/rs.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="glaciers" extends="baselayout">
+		<put-attribute name="title" value="Glaciers"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/glaciers.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="modelling" extends="baselayout">
+		<put-attribute name="title" value="Modelling"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/tiles/modelling.jsp"></put-attribute>
+	</definition>
+	
+
+</tiles-definitions>
